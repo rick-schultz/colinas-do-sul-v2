@@ -11,7 +11,7 @@ opacity: 1;
 
 export default function SquareBig() {
  return (
-       <WhiteSquare className="w-3/6">
+       <WhiteSquare className="w-3/6 z-10">
       <img
         className="p-8"
         src={Colina}

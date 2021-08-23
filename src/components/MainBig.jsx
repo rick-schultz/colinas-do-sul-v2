@@ -15,16 +15,21 @@ const Hidden = styled.div`
 `
 const Zindex = styled.div`
 z-index: -1;
+width: 50%;
 `
 
 const Brand = styled.div`
 position: absolute;
-top: 85%;
+top: 90%;
 left: 82%;
 `
 
 const Text = styled.div`
- inline-size: 35%;
+ inline-size: 33%;
+`
+
+const Imagem = styled.div`
+width: 30%;
 `
 
 export default function MainBig() {
@@ -52,10 +57,10 @@ data-aos-duration="1200">
 
     <div className="container flex my-4 space-x-6 justify-center mb-12">
     
-    <img className=" w-4/5 lg:w-3/5" src={Icones} alt="lago, localização privilegiada, lotes a partir de 180m² e pagamento facilitado" />
+    <Imagem><img src={Icones} alt="lago, localização privilegiada, lotes a partir de 180m² e pagamento facilitado" /></Imagem>
     
     <Zindex>
-      <div className="ml-22 w-3/4">
+      <div>
              <img className="-mt-20" src={Campos} alt="imagem de um campo" />
              </div>
     </Zindex>

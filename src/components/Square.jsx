@@ -11,7 +11,7 @@ opacity: 1;
 
 export default function Square() {
  return (
-       <WhiteSquare className="w-3/4 lg:w-2/4">
+       <WhiteSquare className="w-3/4 lg:w-2/4 z-10">
       <img
         className="m-auto p-8"
         src={Colina}

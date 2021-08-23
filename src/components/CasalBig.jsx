@@ -4,11 +4,11 @@ import styled from "styled-components"
 const Container = styled.div`
   position: absolute;
   top: 13%;
-  left: 67%;
+  left: 65%;
 `
 
 const Image = styled.div`
-  width: 130%;
+  width: 105%;
 `
 
 const Button = styled.div`
@@ -16,7 +16,7 @@ const Button = styled.div`
   width: 50%;
   height: 10%;
   top: 93.48%;
-  left: 35%;
+  left: 27.5%;
   text-align: center;
   display: flex;
   justify-content: center;
