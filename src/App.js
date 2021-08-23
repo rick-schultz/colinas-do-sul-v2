@@ -1,7 +1,11 @@
+import NavBar from './components/NavBar';
+import Main from './components/Main';
+
 export default function App() {
   return (
-    <div className="App">
-      <h1>Hello World</h1>
+    <div className="bg-grass">
+      <NavBar />
+      <Main />
     </div>
   );
 }
