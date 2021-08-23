@@ -15,7 +15,7 @@ Aos.init({})
         <img
           src={Logo}
           alt="logo itude"
-          className="h-28"
+          className="h-24"
         />
       </a>
     </nav>

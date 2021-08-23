@@ -2,7 +2,7 @@ import Aos from 'aos'
 import "aos/dist/aos.css"
 import { useEffect } from 'react';
 import Campos from "../assets/images/campo.png"
-import Casal from "../assets/images/casal.png"
+import Casal from "./Casal"
 import Icones from "../assets/images/icones.png"
 import Marca from "../assets/images/marca.png"
 import Square from './Square';
@@ -28,11 +28,7 @@ data-aos-duration="1200">
 
     <img className="w-3/4 mx-auto my-4" src={Icones} alt="lago, localização privilegiada, lotes a partir de 180m² e pagamento facilitado" />
 
-    <img className="my-2" src={Casal} alt="foto casal" />
-
-    <div className="-mt-10 ml-6">
-      <button>CADASTRE-SE JÁ!</button>
-    </div>
+<Casal/>
 
     <img className="w-3/4 mx-auto mt-4 mb-8" src={Marca} alt="" />
 
