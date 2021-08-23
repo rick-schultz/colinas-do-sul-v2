@@ -9,7 +9,7 @@ import Square from './Square';
 import styled from "styled-components"
 
 const Hidden = styled.div`
-@media (min-width: 768px) {
+@media (min-width: 769px) {
   display: none;
  }
 `
