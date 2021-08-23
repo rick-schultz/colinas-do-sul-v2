@@ -35,7 +35,7 @@ export default function Square() {
  return (
        <Container className="my-4">
         <Image><img src={Casal} alt="foto casal"/></Image>
-          <Button className="text-sm sm:text-lg xsm:text-2xl">CADASTRE-SE JÁ!</Button>
+          <Button className="text-sm sm:text-lg xsm:text-2xl"><a href="https://m.me/1821948678084329" target="_blank" rel="noreferrer">CADASTRE-SE JÁ!</a></Button>
        </Container>
  )
 }
