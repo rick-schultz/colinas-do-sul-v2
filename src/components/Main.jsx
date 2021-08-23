@@ -6,13 +6,20 @@ import Casal from "./Casal"
 import Icones from "../assets/images/icones.png"
 import Marca from "../assets/images/marca.png"
 import Square from './Square';
+import styled from "styled-components"
+
+const Hidden = styled.div`
+@media (min-width: 768px) {
+  display: none;
+ }
+`
 
 export default function Main() {
 useEffect(() => {
 Aos.init({})
 }, []);
 return (
-<>
+<Hidden>
 <div className="container mx-auto flex flex-wrap px-4"
 data-aos="zoom-in"
 data-aos-duration="1200">
@@ -33,6 +40,6 @@ data-aos-duration="1200">
     <img className="w-3/4 mx-auto mt-4 mb-8" src={Marca} alt="" />
 
 </div>
-</>
+</Hidden>
 )
 }

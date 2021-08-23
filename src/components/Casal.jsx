@@ -23,7 +23,7 @@ const Button = styled.div`
   margin: auto;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
-  color: black;
+  color: #378A2B;
   font-weight: 600;
   padding: 2%;
   border: none;
@@ -35,7 +35,7 @@ export default function Square() {
  return (
        <Container className="my-4">
         <Image><img src={Casal} alt="foto casal"/></Image>
-          <Button className="text-sm sm:text-3xl lg:text-4xl xl:text-5xl">CADASTRE-SE JÁ!</Button>
+          <Button className="text-sm sm:text-lg xsm:text-2xl">CADASTRE-SE JÁ!</Button>
        </Container>
  )
 }
