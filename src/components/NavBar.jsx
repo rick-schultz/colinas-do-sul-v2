@@ -8,14 +8,14 @@ export default function NavBar() {
 Aos.init({})
  }, []);
  return (
-<nav className="w-full py-3 bg-white mt-8">
-  <div className="w-full flex">
-    <nav id="logo-itude" data-aos="fade-right" data-aos-duration="1000">
+<nav className="w-full py-3">
+  <div className="w-full flex bg-white mt-8">
+    <nav className="mx-auto" id="logo-itude" data-aos="fade-right" data-aos-duration="1000">
       <a href="https://itude.com.br" target="_blank" rel="noreferrer">
         <img
           src={Logo}
           alt="logo itude"
-          style={{height: "4rem"}}
+          className="h-28"
         />
       </a>
     </nav>
