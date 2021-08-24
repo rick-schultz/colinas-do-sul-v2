@@ -49,7 +49,7 @@ data-aos-duration="1200">
     <SquareBig />
 
   <Text>
-    <p className="text-white text-2xl font-bold text-center mx-auto my-2 lg:text-3xl">
+    <p className="text-white text-2xl font-bold text-center mx-auto my-2 lg:text-3xl lg:mt-8">
     O FRESCOR DO CAMPO PRÓXIMO À CIDADE!</p>
   </Text>
 
