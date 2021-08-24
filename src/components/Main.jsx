@@ -22,7 +22,8 @@ return (
 <Hidden>
 <div className="container mx-auto flex flex-wrap px-4"
 data-aos="zoom-in"
-data-aos-duration="1200">
+data-aos-duration="1200"
+data-aos-delay="1000" >
 
   <p className="text-white text-2xl font-bold text-center mx-auto my-2 sm:text-3xl">
   O FRESCOR DO CAMPO PRÓXIMO À CIDADE!</p>

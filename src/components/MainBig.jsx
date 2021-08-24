@@ -40,7 +40,8 @@ return (
 <Hidden>
 <div className="container mx-auto flex flex-wrap px-4"
 data-aos="zoom-in"
-data-aos-duration="1200">
+data-aos-duration="1200"
+data-aos-delay="1000" >
 
 
   <div className="container flex my-4">

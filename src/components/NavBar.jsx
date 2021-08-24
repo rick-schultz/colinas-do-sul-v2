@@ -10,7 +10,7 @@ Aos.init({})
  return (
 <nav className="w-full py-3">
   <div className="w-full flex bg-white mt-8">
-    <nav className="mx-auto" id="logo-itude" data-aos="fade-right" data-aos-duration="1000">
+    <nav className="mx-auto" id="logo-itude" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="500">
       <a href="https://itude.com.br" target="_blank" rel="noreferrer">
         <img
           src={Logo}
